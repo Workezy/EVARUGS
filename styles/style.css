@@ -1,0 +1,228 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  margin: 0 auto;
+  margin-bottom: 55px;
+  max-width: 1440px;
+  max-height: 80px;
+  background: linear-gradient(
+    269.91deg,
+    rgba(46, 49, 146, 0.7) 0%,
+    rgba(212, 20, 90, 0.7) 98.16%
+  );
+}
+.header_container {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+.header_container a {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  color: #fff;
+}
+.number_list {
+  display: flex;
+  align-items: center;
+}
+.phone {
+  margin-right: 10px;
+}
+.number_item {
+  margin-right: 10px;
+}
+.city {
+  display: flex;
+  align-items: center;
+}
+.locate {
+  margin-right: 10px;
+}
+.instagram {
+  display: flex;
+  align-items: center;
+}
+.instagram_photo {
+  margin-right: 15px;
+}
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.main_content_header_inner {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo_img {
+  margin-right: 10px;
+}
+.logo_name {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000;
+}
+.nav_block {
+  display: flex;
+  align-items: center;
+}
+.nav__block--item {
+  margin-right: 25px;
+
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #737373;
+}
+.main_content_inner {
+  display: flex;
+  align-items: center;
+}
+.main_content_leftbox h2 {
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 59px;
+  color: #000;
+}
+.main_content_leftbox p {
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000;
+}
+.buy_btn {
+  width: 180px;
+  height: 53px;
+
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #fff;
+
+  background: linear-gradient(95.2deg, #b90160 2.23%, #2e3192 99.51%);
+  border-radius: 7px;
+}
+.main_content_rightbox {
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../img/rightbox_underimg.png");
+}
+
+.about_title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  color: #000;
+}
+.about_title span {
+  background: linear-gradient(90deg, #b90160 0%, #3d5bf5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about_col_list {
+  display: flex;
+  margin-top: 120px;
+  margin-bottom: 225px;
+}
+.about__col_list--item {
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 344px;
+  height: 414px;
+  box-shadow: 0px 0px 40px rgba(184, 0, 95, 0.2);
+  border-radius: 9px;
+  overflow: hidden;
+}
+.about__col_list--item_text {
+  padding-left: 15px;
+}
+.about__col_list--item_text h2 {
+  padding-top: 10px;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 59px;
+  color: #000;
+}
+.about__col_list--item_text p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #737373;
+}
+.swiper {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 75px;
+  background: linear-gradient(
+    94.31deg,
+    rgba(212, 20, 90, 0.25) 0.96%,
+    rgba(46, 49, 146, 0.25) 104.83%
+  );
+}
+.swiper-wrapper {
+  display: flex;
+}
+.swiper-slide {
+  position: relative;
+  padding: 64px 45px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 590px;
+  height: 230px;
+
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+.swiper-slide_img {
+  position: absolute;
+  top: -50%;
+  left: 35%;
+}
+.swiper-slide_text p {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000;
+}
+.line {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 130px;
+  height: 1px;
+
+  background: linear-gradient(90deg, #b90160 0%, #3d5bf5 100%);
+}
+.description {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #8e8e8e;
+}
+.swiper-slide-active {
+
+  opacity: 500;
+}
