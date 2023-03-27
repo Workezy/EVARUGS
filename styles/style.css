@@ -122,7 +122,11 @@ body {
   background-repeat: no-repeat;
   background-image: url("../img/rightbox_underimg.png");
 }
-
+.about_dec {
+  position: absolute;
+  top: 50%;
+  
+}
 .about_title {
   font-weight: 400;
   font-size: 50px;
@@ -166,17 +170,19 @@ body {
   line-height: 21px;
   color: #737373;
 }
+.swiper_bg {
+  background: linear-gradient(
+    94.31deg,
+    rgba(212, 20, 90, 0.25) 0.96%,
+    rgba(46, 49, 146, 0.25) 104.83%
+  );
+}
 .swiper {
   margin-bottom: 150px;
   position: relative;
   padding-top: 100px;
   padding-bottom: 75px;
   z-index: 13;
-  background: linear-gradient(
-    94.31deg,
-    rgba(212, 20, 90, 0.25) 0.96%,
-    rgba(46, 49, 146, 0.25) 104.83%
-  );
 }
 .swiper-wrapper {
   display: flex;
@@ -308,6 +314,7 @@ body {
   max-height: 400px;
   visibility: hidden;
   background: #ffffff;
+  background-image: url(../img/bg_popup.svg);
   box-shadow: 0px 0px 35px rgba(212, 20, 90, 0.25);
   border-radius: 15px;
 }
@@ -345,6 +352,7 @@ body {
   width: 750px;
   height: 80px;
 
+  outline: none;
   resize: none;
 
   background: #ffffff;
@@ -366,4 +374,62 @@ body {
 
   background: linear-gradient(96.12deg, #d4145a -21.03%, #3d5bf5 103.56%);
   border-radius: 9px;
+}
+
+@media (max-width: 768px) {
+.container {
+  margin: 0;
+  max-width: 768px;
+}
+  .number_list {
+    display: none;
+  }
+  .nav_block {
+    display: none;
+  }
+  .logo {
+    margin-bottom: 70px;
+  }
+  .main_content_header_inner {
+    padding-left: 66px;
+  }
+  .main_content_leftbox h2 {
+    font-size: 50px;
+  }
+  .main_content_rightbox img {
+    width: 50%;
+  }
+  .main_content_inner {
+    padding-left: 66px;
+  }
+  .about_title {
+    font-size: 40px;
+  }
+  .about_col_list {
+    margin-right: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .about__col_list--item {
+    width: 600px;
+    margin-left: 80px;
+    margin-bottom: 60px;
+  }
+  .about__col_list--item_img img {
+    width: 100%;
+    height: 180px;
+  }
+  .swiper-wrapper {
+    max-height: 948px;
+    align-items: center;
+  }
+  .swiper-slide {
+    /* max-height: 536px; */
+    padding-left: 60px;
+  }
+  .swiper-slide_img {
+    top: -45%;
+    left: 36%;
+  }
 }
